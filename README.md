@@ -1,4 +1,4 @@
-# Semantically interpretable and controllable Filter Sets
+# Semantically Interpretable and Controllable Filter Sets
 This is the MATLAB implementation of our paper:
 
 [Mohit Prabhushankar*](https://www.linkedin.com/in/mohitps/), [Gukyeong Kwon*](https://www.linkedin.com/in/gukyeong-kwon/), and [Ghassan AlRegib](https://ghassanalregib.com), "Semantically Interpretable and Controllable Filter Sets," 2018 25th IEEE International Conference on Image Processing (ICIP), Athens, 2018, pp. 1053-1057. (*: equal contribution)\
@@ -13,18 +13,19 @@ We investigate different regularization techniques including l<sub>1</sub> ((a),
 <p align="center">
 <img src="./figs/reconstruction.png", width="500">
 </p>
-We demonstrate the advantage of learning semantic filters and categorizing them based on visual concepts using two applications: traffic sign recognition and image quality assessment. 
+We demonstrate the advantage of learning semantic filters and categorizing them based on visual concepts using two applications: traffic sign recognition and image quality assessment.
 <p align="center">
+<br>
 <img src="./figs/testing_v5.png", width="500">
 <br>
 General framework of the semantic autoencoder
 </p> 
 
 ## Usage 
-Code for both Image Quality Assessment and Traffic Sign Recognition are provided in separate folders.    
-For each application, run the demo.m file. Sample original and distorted images (for IQA) and sample Traffic Sign images are provided.  
-For IQA : The code outputs the quality of the distorted image which lies between 0 and 1 (1 being the best quality).  
-For Traffic Sign Recognition : The code recognizes the traffic sign according to the label convention in this [paper](https://arxiv.org/abs/1712.02463)  
+Code for both image quality assessment (IQA) and traffic sign recognition are provided in separate folders.
+- For each application, run the demo.m file. Sample original and distorted images (for IQA) and sample traffic sign images are provided.  
+- For IQA : The code outputs the quality of the distorted image which lies between 0 and 1 (1 being the best quality).  
+- For traffic sign recognition : The code recognizes the traffic sign according to the label convention in this [paper](https://arxiv.org/abs/1712.02463)  
 
 ## Citation
 If you find our paper and repository useful, please consider citing our paper:  
@@ -32,12 +33,12 @@ IEEE Link : https://ieeexplore.ieee.org/document/8451220
 ```
 @inproceedings{prabhushankar2018semantically,
   title={Semantically Interpretable and Controllable Filter Sets},
-  author={Prabhushankar, Mohit and Kwon, Gukyeong and Temel, Dogancan and AIRegib, Ghassan},
-  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP),
+  author={Prabhushankar*, Mohit and Kwon*, Gukyeong and Temel, Dogancan and AIRegib, Ghassan},
+  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
   pages={1053--1057},
-  note = {(*: equal contribution),
+  note = {(*: equal contribution)},
   year={2018},
-  organization={IEEE}
-}
+  organization={IEEE},
+  }
 
 ```
